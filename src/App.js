@@ -3,9 +3,10 @@ import config from './setupTests';
 import GraphComponent from './highchartsGraph/highchartsGraphComponent';
 
 class App extends Component {
+  
   render() {
     return (
-      <div>
+      <div className="container mt-5" >
         <GraphComponent data={config} />
       </div>
     );
