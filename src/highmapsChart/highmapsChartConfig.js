@@ -31,13 +31,13 @@ const config = {
     series: [{
         map: true,
         name: 'UTC',
-        data: ['IE', 'IS', 'GB', 'PT'].map((code) => {
-            return { code: code };
+        data: ['IE', 'IS', 'GB', 'PT'].map((countryCode) => {
+            return { code: countryCode };
         })
     }, {
         name: 'UTC + 1',
-        data: ['NO', 'SE', 'DK', 'DE', 'NL', 'BE', 'LU', 'ES', 'FR', 'PL', 'CZ', 'AT', 'CH', 'LI', 'SK', 'HU', 'SI', 'IT', 'SM', 'HR', 'BA', 'YF', 'ME', 'AL', 'MK'].map((code) => {
-            return { code: code };
+        data: ['NO', 'SE', 'DK', 'DE', 'NL', 'BE', 'LU', 'ES', 'FR', 'PL', 'CZ', 'AT', 'CH', 'LI', 'SK', 'HU', 'SI', 'IT', 'SM', 'HR', 'BA', 'YF', 'ME', 'AL', 'MK'].map((countryCode) => {
+            return { code: countryCode };
         })
     }]
 };
