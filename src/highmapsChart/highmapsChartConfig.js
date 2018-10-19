@@ -1,8 +1,4 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import './highmapsMap';
-import ReactHighmaps from 'react-highcharts/ReactHighcharts.src';
-
+import { europe } from './europe';
 
 const config = {
     chart: {
@@ -25,7 +21,7 @@ const config = {
                     fontWeight: 'bold'
                 }
             },
-            mapData: './highmapsMap',
+            mapData: europe,
             tooltip: {
                 headerFormat: '',
                 pointFormat: '{point.name}: <b>{series.name}</b>'
