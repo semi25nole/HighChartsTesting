@@ -1,3 +1,9 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+import './highmapsMap';
+import ReactHighmaps from 'react-highcharts/ReactHighcharts.src';
+
+
 const config = {
     chart: {
         spacingBottom: 20
@@ -19,6 +25,7 @@ const config = {
                     fontWeight: 'bold'
                 }
             },
+            mapData: './highmapsMap',
             tooltip: {
                 headerFormat: '',
                 pointFormat: '{point.name}: <b>{series.name}</b>'
@@ -26,6 +33,7 @@ const config = {
         }
     },
     series: [{
+        map: true,
         name: 'UTC',
         data: ['IE', 'IS', 'GB', 'PT'].map((code) => {
             return { code: code };
