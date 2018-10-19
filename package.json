@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "highcharts": "^6.2.0",
     "react-highcharts": "^16.0.2",
     "react-scripts": "2.0.5"
   },
@@ -25,6 +24,10 @@
   ],
   "devDependencies": {
     "enzyme": "^3.7.0",
-    "enzyme-adapter-react-16": "^1.6.0"
+    "enzyme-adapter-react-16": "^1.6.0",
+    "highcharts-react-official": "^1.4.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-highlight": "^0.12.0"
   }
 }
