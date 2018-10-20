@@ -5,7 +5,7 @@ import config from './combinationChartConfig';
 class ComboChart extends Component {
     render() {
         return(
-            <div>
+            <div className='jumbotron mt-5'>
                 <ReactHighcharts config={config} />
             </div>
         )
