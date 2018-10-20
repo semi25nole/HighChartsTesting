@@ -7,6 +7,8 @@ import Stocks from './highstockChart/highstockChart';
 import config3 from './highstockChart/highstockChartConfig';
 import config4 from './donutChart/donutChartConfig';
 import Donut from './donutChart/donutChart';
+import MultipleAxes from './multipleAxes/multipleAxes';
+import config5 from './multipleAxes/multipleAxesConfig';
 
 class App extends Component {
   
@@ -17,6 +19,7 @@ class App extends Component {
         <Map config={config2}/>
         <Stocks config={config3}/>
         <Donut config={config4} />
+        <MultipleAxes config={config5} />
       </div>
     );
   }
