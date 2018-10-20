@@ -5,6 +5,8 @@ import Map from './highmapsChart/highmapsChart';
 import config2 from './highmapsChart/highmapsChartConfig';
 import Stocks from './highstockChart/highstockChart';
 import config3 from './highstockChart/highstockChartConfig';
+import config4 from './donutChart/donutChartConfig';
+import Donut from './donutChart/donutChart';
 
 class App extends Component {
   
@@ -14,6 +16,7 @@ class App extends Component {
         <GraphComponent data={config} />
         <Map config={config2}/>
         <Stocks config={config3}/>
+        <Donut config={config4} />
       </div>
     );
   }
