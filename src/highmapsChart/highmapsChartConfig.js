@@ -1,3 +1,5 @@
+import { europe } from './europe';
+
 const config = {
     chart: {
         spacingBottom: 20
@@ -19,6 +21,7 @@ const config = {
                     fontWeight: 'bold'
                 }
             },
+            mapData: europe,
             tooltip: {
                 headerFormat: '',
                 pointFormat: '{point.name}: <b>{series.name}</b>'
@@ -26,6 +29,7 @@ const config = {
         }
     },
     series: [{
+        map: true,
         name: 'UTC',
         data: ['IE', 'IS', 'GB', 'PT'].map((countryCode) => {
             return { code: countryCode };

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
 import config from './highmapsChartConfig';
+import ReactHighmaps from 'react-highcharts/ReactHighmaps';
 
 class Map extends Component {
     render() {
